@@ -1,7 +1,7 @@
 <template>
   <div >
     <head-top ></head-top>
-    <section>这是主页</section>
+    <section>这是招聘信息</section>
     <foot-guide></foot-guide>
   </div>
 </template>
@@ -22,4 +22,3 @@
 
   }
 </script>
-
