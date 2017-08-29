@@ -1,6 +1,12 @@
 <template>
   <header id='header'>
-<section>
+    <div>
+    <img src="../../images/logo.png" height="52" width="461"/>
+<span>地理位置</span>
+<span>关于我们</span>
+    </div>
+
+    <section>
   <router-link to="/home">首頁</router-link>
   <router-link to="/companyProfile">公司简介</router-link>
   <router-link to="/causeContent">事业内容</router-link>
