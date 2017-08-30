@@ -1,24 +1,6 @@
 <template>
   <header id='header'>
-<<<<<<< Updated upstream
-    <div>
-    <img src="../../images/logo.png" height="52" width="461"/>
-<span>地理位置</span>
-<span>关于我们</span>
-    </div>
 
-    <section>
-  <router-link to="/home">首頁</router-link>
-  <router-link to="/companyProfile">公司简介</router-link>
-  <router-link to="/causeContent">事业内容</router-link>
-  <router-link to="/recruitmentInformation">招聘信息</router-link>
-  <router-link to="/businessCase">业务案例</router-link>
-  <router-link to="/contactUs">联系我们</router-link>
-  <router-link to="/protectPersonalInformation">保护个人信息</router-link>
-  <router-link to="/linkAddress">链接</router-link>
-
-</section>
-=======
     <section>
       <table border="0" cellpadding="0" cellspacing="0" width="950">
         <tr>
@@ -27,20 +9,19 @@
           <td style="text-align:right;vertical-align:bottom;"><router-link to="../causeContent">地理位置</router-link></td>
         </tr>
         <div id="tabs">
-          <router-link to="/home">首頁</router-link>
-          <router-link to="/companyProfile">公司简介</router-link>
-          <router-link to="/causeContent">事业内容</router-link>
-          <router-link to="/recruitmentInformation">招聘信息</router-link>
-          <router-link to="/businessCase">业务案例</router-link>
-          <router-link to="/contactUs">联系我们</router-link>
-          <router-link to="/protectPersonalInformation">保护个人信息</router-link>
-          <router-link to="/linkAddress">链接</router-link>
+          <router-link to="/home" >{{title}}</router-link>
+          <router-link to="/companyProfile" v-lang.categories.companyProfile></router-link>
+          <router-link to="/causeContent" v-lang.categories.causeContent></router-link>
+          <router-link to="/recruitmentInformation" v-lang.categories.recruitmentInformation></router-link>
+          <router-link to="/businessCase" v-lang.categories.businessCase></router-link>
+          <router-link to="/contactUs" v-lang.categories.contactUs></router-link>
+          <router-link to="/protectPersonalInformation" v-lang.categories.protectPersonalInformation></router-link>
+          <router-link to="/linkAddress" v-lang.categories.linkAddress></router-link>
+
         </div>
 
       </table>
     </section>
-
->>>>>>> Stashed changes
 
   </header>
 
@@ -48,7 +29,27 @@
 </template>
 
 <script >
+  export default{
+    data() {
+      return {
 
+      }
+    },
+    messages: {
+      cn: {
+        title: '首页'
+      },
+      jp: {
+        title: 'ホーム'
+      }
+    },
+    computed: {
+      title() {
+        this.$language = 'jp' //先设定一个假的语言
+        return this.translate(this.$language, 'title')
+      }
+    },
+  }
 </script>
 
 <style >
