@@ -4,7 +4,7 @@
     <section>
       <table border="0" cellpadding="0" cellspacing="0" width="950">
         <tr>
-          <td><span id="table-left">< img src="../../images/logo.png" title="大连维思创新科技有限公司" border="0" /></span></td>
+          <td><span id="table-left"><img src="../../images/logo.png" title="大连维思创新科技有限公司" border="0" /></span></td>
           <td style="text-align:right;vertical-align:bottom;"><router-link to="">日本語</router-link></td>
           <td style="text-align:right;vertical-align:bottom;"><router-link to="../causeContent">地理位置</router-link></td>
         </tr>

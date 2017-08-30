@@ -5,13 +5,8 @@ import store from './store/'
 import {routerMode} from './config/env'
 import './config/rem'
 import FastClick from 'fastclick'
-import MultiLanguage from 'src/vue-multilanguage'
-
+import MultiLanguage from 'src/components/common/vue-multilanguage'
 import language from './lang/language'
-
-Vue.use( MultiLanguage, language )
-
-
 
 
 if ('addEventListener' in document) {
@@ -21,6 +16,7 @@ if ('addEventListener' in document) {
 }
 
 Vue.use(VueRouter)
+Vue.use( MultiLanguage, language )
 const router = new VueRouter({
 	routes,
 	mode: routerMode,
