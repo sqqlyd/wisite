@@ -1,4 +1,5 @@
 export default {
+  changelanguage: 'English',
   businessCase: 'businessCase',
   causeContent: 'causeContent',
   companyProfile: 'companyProfile',

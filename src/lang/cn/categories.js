@@ -1,4 +1,5 @@
 export default {
+  changelanguage: '中文',
   businessCase: '业务案例',
   causeContent: '事业内容',
   companyProfile: '公司简介',
