@@ -1,4 +1,5 @@
 export default {
+  changelanguage: '日本語',
   businessCase: '事業実績',
   causeContent: '事業内容',
   companyProfile: '会社情報',
