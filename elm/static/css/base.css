@@ -1,0 +1,153 @@
+@charset "utf-8";
+
+body,html {
+	font-family: "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-size: 16px;
+	display: block;
+	height: 100%;
+	width: 100%;
+}
+
+.block {
+	display: block;
+}
+.inline {
+	display: inline;
+}
+
+
+a {
+	color:#5B7197;
+	text-decoration: underline;
+}
+a:link {
+	color:#5B7197;
+	text-decoration: underline;
+}
+a:hover {
+	color:#98A7C0;
+	text-decoration: underline;
+}
+a:active {
+	color:#5B7197;
+	text-decoration: underline;
+}
+
+
+ul li,
+ol li {
+	list-style-type: none;
+}
+
+
+.bgNone {
+	background-image: none !important;
+}
+
+.center {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.img_l {
+	float: left;
+}
+
+.img_r {
+	float: right;
+}
+
+
+.tCenter {
+	text-align: center;
+}
+.tLeft {
+	text-align: left;
+}
+.tRight {
+	text-align: right;
+}
+
+
+.clear {
+	clear: both;
+}
+.cf:after {
+	content: "";
+	clear: both;
+	display: block;
+	height: 0;
+}
+.ov {
+	overflow: hidden;
+}
+
+
+
+/* MarginBottom Style */
+.mgb5 {
+	margin-bottom: 5px;
+}
+.mgb10 {
+	margin-bottom: 10px;
+}
+.mgb20 {
+	margin-bottom: 20px;
+}
+.mgb30 {
+	margin-bottom: 30px;
+}
+
+/* PaddingTop Style */
+.pdt5 {
+	padding-top: 5px;
+}
+.pdt10 {
+	padding-top: 10px;
+}
+.pdt20 {
+	padding-top: 20px;
+}
+.pdt30 {
+	padding-top: 30px;
+}
+/* PaddingBottom Style */
+.pdb5 {
+	padding-bottom: 5px;
+}
+.pdb10 {
+	padding-bottom: 10px;
+}
+.pdb20 {
+	padding-bottom: 20px;
+}
+.pdb30 {
+	padding-bottom: 30px;
+}
+
+/* Font Style */
+.bold {
+	font-weight: bold;
+}
+.normal {
+	font-weight: normal;
+}
+.red {
+	color: #c11;
+}
+
+.gray1 {
+	color: #666;
+}
+
+/* Vertical Style */
+.vcB {
+	vertical-align: bottom;
+}
+.vcM {
+	vertical-align: middle;
+}
+.vcT {
+	vertical-align: top;
+}
