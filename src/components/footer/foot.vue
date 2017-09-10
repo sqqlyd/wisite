@@ -1,37 +1,60 @@
 <template>
-  <section id='foot_guide'>
-      <div id="container">
-        <div id="footer">
-          Copyright (C) 2016 Wisdom Dalian Co., Ltd. All Rights Reserved.
-        </div>
+  <div id="footer">
+    <div id="foot_right">
+      <div class="block">
+        <p><strong>【大阪支店】</strong><br/>
+          〒541-0047<br/>
+          大阪市中央区淡路町4-7-1<br/>
+          ＢＢ第一ﾋﾞﾙ７階<br/>
+          TEL 06-6202-6355<br/>FAX 06-6202-6359</p>
       </div>
-  </section>
+      <div class="block">
+        <p><strong>【東京本社】</strong><br/>
+          〒160-0023<br/>
+          東京都新宿区西新宿3-5-3<br/>
+          西新宿ﾀﾞｲﾔﾓﾝﾄﾞﾊﾟﾚｽ1009<br/>
+          TEL 03-5909-7311<br/>FAX 03-3347-1139</p>
+      </div>
+    </div>
+    <div id="foot_left">
+      <ul>
+        <li><a href="http://www.s-protec.com/message/">代表ご挨拶</a></li>
+        <li><a href="http://www.s-protec.com/service/">業務内容</a></li>
+        <li><a href="http://www.s-protec.com/recruit/">採用情報</a></li>
+        <li><a href="http://www.s-protec.com/company/">会社概要</a></li>
+        <li><a href="http://www.s-protec.com/wp/wp-content/themes/protec/images/privacy/filePP.pdf#zoom=100"
+               target="_blank">個人情報保護方針</a></li>
+        <li><a href="http://www.s-protec.com/sitemap/">サイトマップ</a></li>
+        <li><a href="http://www.s-protec.com/inquiry/">お問い合わせ</a></li>
+      </ul>
+      <ul id="container">
+        <li><a href="http://www.s-protec.com/service/it/">ITコンサルティング</a></li>
+        <li><a href="http://www.s-protec.com/service/control/">制御・組込系システム開発</a></li>
+        <li><a href="http://www.s-protec.com/service/develop/">オープン系システム開発</a></li>
+        <li><a href="http://www.s-protec.com/service/machine/">電気・電子制御開発</a></li>
+        <li><a href="http://www.s-protec.com/service/system/">システム運用・保守</a></li>
+      </ul>
+      <ul>
+        <li><a href="http://www.s-protec.com/recruit/">お仕事をお探しの方へ</a></li>
+      </ul>
+    </div>
+    <br class="clear"/>
+    <p id="copy">Copyright(C) 2010 Protec Ltd. All Rights Reserved.</p>
+  </div>
 </template>
-
 <script>
+  import './base'
+  import './import'
+  import './reset'
 
+  export default {
+    data(){
+      return {}
+    },
 
+    components: {}
+
+  }
 </script>
-<style>
-  #container {
-    width: 99%;
-    overflow: hidden;
-    margin: 0px;
-    padding: 6px;
-    background-color: #ffffff;
-  }
-  #footer {
-    clear: both;
-    margin: 3px auto;
-    width: 100%;
-    padding: 10px 10px;
-    text-align: center;
-    font-size: 12px;
-    color: #333333;
-    border-top-color: #09F;
-    background-color: #ffffff;
-    border-top-width: 4px;
-    border-top-style: solid;
-  }
-</style>
+
 
