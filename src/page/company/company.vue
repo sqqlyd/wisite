@@ -11,7 +11,7 @@
     }
 </style>
 <script>
-    import HeaderComponent from './components/header.vue'
+    import HeaderComponent from '../../components/header/head.vue'
     import OtherComponent from './components/other.vue'
 
     export default {

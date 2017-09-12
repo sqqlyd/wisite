@@ -7,7 +7,8 @@ import './config/rem'
 import FastClick from 'fastclick'
 import MultiLanguage from 'src/components/common/vue-multilanguage'
 import language from './lang/language'
-
+import ElementUI from 'element-ui'
+import 'element-ui/lib/theme-default/index.css'
 
 if ('addEventListener' in document) {
     document.addEventListener('DOMContentLoaded', function() {
@@ -17,6 +18,7 @@ if ('addEventListener' in document) {
 
 Vue.use(VueRouter)
 Vue.use( MultiLanguage, language )
+Vue.use(ElementUI)
 const router = new VueRouter({
 	routes,
 	mode: routerMode,

@@ -8,7 +8,7 @@
 
 <script>
   import headTop from '../../components/header/head'
-  import footGuide from '../../components/footer/footGuide'
+  import footGuide from '../../components/footer/foot.vue'
 
   export default {
     data(){

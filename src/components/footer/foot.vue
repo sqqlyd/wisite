@@ -18,24 +18,24 @@
     </div>
     <div id="foot_left">
       <ul>
-        <li><a href="http://www.s-protec.com/message/">代表ご挨拶</a></li>
-        <li><a href="http://www.s-protec.com/service/">業務内容</a></li>
-        <li><a href="http://www.s-protec.com/recruit/">採用情報</a></li>
-        <li><a href="http://www.s-protec.com/company/">会社概要</a></li>
-        <li><a href="http://www.s-protec.com/wp/wp-content/themes/protec/images/privacy/filePP.pdf#zoom=100"
+        <li><a href="/message/">代表ご挨拶</a></li>
+        <li><a href="/service/">業務内容</a></li>
+        <li><a href="/recruit/">採用情報</a></li>
+        <li><a href="/company/">会社概要</a></li>
+        <li><a href="/filePP.pdf#zoom=100"
                target="_blank">個人情報保護方針</a></li>
-        <li><a href="http://www.s-protec.com/sitemap/">サイトマップ</a></li>
-        <li><a href="http://www.s-protec.com/inquiry/">お問い合わせ</a></li>
+        <li><a href="/sitemap/">サイトマップ</a></li>
+        <li><a href="/inquiry/">お問い合わせ</a></li>
       </ul>
       <ul id="container">
-        <li><a href="http://www.s-protec.com/service/it/">ITコンサルティング</a></li>
-        <li><a href="http://www.s-protec.com/service/control/">制御・組込系システム開発</a></li>
-        <li><a href="http://www.s-protec.com/service/develop/">オープン系システム開発</a></li>
-        <li><a href="http://www.s-protec.com/service/machine/">電気・電子制御開発</a></li>
-        <li><a href="http://www.s-protec.com/service/system/">システム運用・保守</a></li>
+        <li><a href="/service/it/">ITコンサルティング</a></li>
+        <li><a href="/service/control/">制御・組込系システム開発</a></li>
+        <li><a href="/service/develop/">オープン系システム開発</a></li>
+        <li><a href="/service/machine/">電気・電子制御開発</a></li>
+        <li><a href="/service/system/">システム運用・保守</a></li>
       </ul>
       <ul>
-        <li><a href="http://www.s-protec.com/recruit/">お仕事をお探しの方へ</a></li>
+        <li><a href="/recruit/">お仕事をお探しの方へ</a></li>
       </ul>
     </div>
     <br class="clear"/>
@@ -43,9 +43,6 @@
   </div>
 </template>
 <script>
-  import './base'
-  import './import'
-  import './reset'
 
   export default {
     data(){

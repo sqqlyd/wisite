@@ -2,7 +2,7 @@ import App from '../App'
 
 const home = r => require.ensure([], () => r(require('../page/home/home')), 'home')
 const companyProfile = r => require.ensure([], () => r(require('../page/companyProfile/companyProfile')), 'companyProfile')
-const causeContent = r => require.ensure([], () => r(require('../page/causeContent/causeContent')), 'causeContent')
+// const causeContent = r => require.ensure([], () => r(require('../page/causeContent/causeContent')), 'causeContent')
 const recruitmentInformation = r => require.ensure([], () => r(require('../page/recruitmentInformation/recruitmentInformation')), 'recruitmentInformation')
 const businessCase = r => require.ensure([], () => r(require('../page/businessCase/businessCase')), 'businessCase')
 const contactUs = r => require.ensure([], () => r(require('../page/contactUs/contactUs')), 'contactUs')
@@ -29,10 +29,10 @@ export default [{
           component: companyProfile
         },
         //事业内容
-        {
-          path: '/causeContent',
-          component: causeContent
-        },
+        // {
+        //   path: '/causeContent',
+        //   component: causeContent
+        // },
         //招聘信息
         {
           path: '/recruitmentInformation',
